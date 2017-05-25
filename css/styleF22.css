@@ -1,0 +1,277 @@
+/*--
+Author: Francisco Arias
+Author URL: http:/www.softax.cl
+--*/
+
+.edit {
+position:relative;
+float:right;
+cursor:pointer;
+
+}
+
+#toTop {
+    background: rgba(0, 0, 0, 0) url("../img/to-top1.png") no-repeat scroll 0 0;
+    border: medium none;
+    bottom: 14px;
+    display: none;
+    height: 40px;
+    overflow: hidden;
+    position: fixed;
+    right: 1%;
+    text-decoration: none;
+    text-indent: 100%;
+    width: 40px;
+    z-index: 10000;
+}
+#toTopHover {
+    display: block;
+    float: right;
+    height: 40px;
+    opacity: 0;
+    overflow: hidden;
+    width: 40px;
+}
+
+
+
+html, body{
+  	font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+  	 background: #FFf;
+  	 -webkit-font-smoothing: antialiased;
+}
+
+.datagrid table { 
+    border-collapse: collapse; text-align: left; width: 100%; } 
+.datagrid {position:relative;top:10px; font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }.datagrid table td, .datagrid table th { padding: 3px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00A5F7) );background:-moz-linear-gradient( center top, #00A5F7 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #0070A8; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #00496B; border-left: 1px solid #E1EEF4;font-size: 12px;font-weight: normal; }.datagrid table tbody .alt td { background: #E1EEF4; color: #00496B; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }
+
+.grid-home {
+position:relative;
+float:left;
+width:800px;
+height:100%;
+background-color:red;
+}
+
+
+.buscador-home {
+position:relative;
+float:left;
+width:500px;
+height:30px;
+margin-bottom: 10px;
+}
+
+.caja-home {
+    float: left;
+    height: 600px;
+    left: 50%;
+    margin-left: -500px;
+    position: relative;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.black_overlay{
+            display: none;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: seashell;
+            z-index:1001;
+            -moz-opacity: 0.9;
+            opacity:.95;
+            filter: alpha(opacity=95);
+            cursor: progress;
+        }
+        .white_content {
+            display: none;
+            position: fixed;
+            top: 150px;
+            left: 50%;
+            margin-left: -135px;
+            width: 370px;
+            height: 180px;
+            padding: 16px;
+            border: 0px solid;
+            
+            z-index:1002;
+            overflow: auto;
+            cursor: progress;
+        }
+
+
+#BG{
+     background-color: #d2f8f8;
+	position: relative;
+	float: left;
+	width: 100%;
+  
+}
+
+#titulo{
+
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 200px;
+  
+}
+
+/*#menu{
+
+  
+    
+    float: left;
+    height: 50px;
+    opacity: 0.95;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}*/
+
+#logoSII{
+    display:none;
+	position: relative;
+	float: left;
+	background-image: url("../img/logoSII.png");
+	width: 198px;
+	height: 92px;
+	background-repeat: no-repeat;
+	 top: 50px;
+	 left: 30px;
+}
+
+
+#at{
+ 
+    float: left;
+    height: 100px;
+    left: 500px;
+    position: absolute;
+    top: 50px;
+    width: 500px;
+}
+
+#f22{
+ 
+    float: left;
+    height: 100px;
+    left: 1200px;
+    position: absolute;
+    top: 110px;
+}
+
+#globalComplementario{
+	
+	position: relative;
+	float: left;
+	width: 1347px;
+   
+}
+
+.tituloLateral{
+position: relative;
+float: left;
+height: 850px;
+}
+
+.tit{
+position: relative;
+float: left;
+width: 34px;
+border: 1px solid;
+height: 850px;
+
+writing-mode:tb-rl;
+transform: rotate(180deg);
+
+}
+
+#titulosGlobal{
+position: relative;
+float: left;
+width: 1277px;
+height: 50px;
+border: 1px solid; 
+
+}
+
+.linea{
+position: relative;
+float: left;
+width: 1277px;
+height: 40px;
+border: 1px solid; 
+
+}
+
+.nro{
+ border-right: 1px solid;
+    float: left;
+    font-size: 20px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 40px;
+}
+
+
+.nroCod{
+ border-right: 1px solid;
+    float: left;
+    font-size: 20px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 60px;
+}
+
+.nroCod{
+    float: left;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 50px;
+}
+
+.cajaImpto{
+
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 220px;
+    border-right: 1px solid;
+}
+
+
+.cajaReb{
+
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 175px;
+    border-right: 1px solid;
+}
+.signo{
+
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.linea5{
+position: relative;
+float: left;
+width: 1235px;
+height: 40px;
+border-bottom: 1px solid; 
+border-top: 0 solid;
+}

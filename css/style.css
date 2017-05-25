@@ -1,0 +1,562 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html, body{
+
+  	font-family: "Open Sans",Verdana,Helvetica,sans-serif;
+    font-size: 100%;
+  	-webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    
+}
+
+
+#crear_contribuyente{
+    z-index:3;
+     font-size: 12px;
+     box-shadow: 3px 2px 40px #999;
+     background-color:#E6E6E6;
+     padding:0; width:1000px;
+     top:5%;margin-left: -500px;
+     left:50%;border: 1px solid #000;
+     height:600px;
+     cursor:default;
+     border-radius:9px;
+}
+
+#titulo_index{
+    position:relative;
+    float:left;
+    color:white;
+    font-size: 35px;
+    top:10px;
+    left:5%;
+}
+
+.no_decoration_text {
+    text-decoration:none;
+}
+
+.username {
+    color: #ffffff;
+    float: right;
+    font-size: 14px;
+    margin-right: 90px;
+    margin-top: 25px; 
+    max-width: 300px;
+    min-height: 100px;
+    position: absolute;
+    right: 0;
+}
+
+#contenido-home{
+    height: 300px;
+    position:relative;
+    float:left;
+    width:100%;
+    background-image:url('../img/background-home.png');
+}
+
+
+#contenido_index{
+    display:none;
+    position:relative;
+    float:left;
+    top: 100px;
+    width:100%;
+}
+
+
+.logo_dtt{
+    float: right;
+    right: 350px;
+    position: relative;
+}
+
+
+.tituloLateral{
+position: relative;
+float: left;
+height: 850px;
+}
+
+.tit{
+position: relative;
+float: left;
+width: 34px;
+border: 1px solid;
+height: 850px;
+
+writing-mode:tb-rl;
+transform: rotate(180deg);
+
+}
+
+#titulosGlobal{
+position: relative;
+float: left;
+width: 1277px;
+height: 50px;
+border: 1px solid; 
+
+}
+
+.lineareverso{
+position: relative;
+float: left;
+height: 40px;
+border: 1px solid; 
+
+}
+
+.nro{
+ border-right: 1px solid;
+    float: left;
+    font-size: 20px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 40px;
+}
+
+
+.tab_datos {
+	border-spacing: 1;
+	background-color: #1e1e20;
+	border: 0;
+}
+
+table {
+	font-size: 11px;
+
+}
+
+.cel_color_center {
+	text-align: center;
+}
+
+.cel_color_center {
+	background-color: #f4f3f9;
+	text-align: center;
+   
+}
+
+.cel_color_left {
+	background-color: #f4f3f9;
+	text-align: left;
+}
+
+.celda_campo_left {
+	background-color: #f4f3f9;
+	text-align: left;
+}
+
+
+.btnes_formulario {
+    color: #000000;
+    float: left;
+    font-weight: bold;
+    left: 20px;
+    position: relative;
+    margin-top: 16px;
+    width: 150px;
+    cursor:pointer;
+    margin-top: 10px;
+    
+}
+
+.btnes_interior_formulario {
+    color: #000000;
+    float: left;
+    
+    left: 20px;
+    position: relative;
+    margin-top: 16px;
+    width: 150px;
+    cursor:pointer;
+    margin-top: 10px;
+    border-bottom: 1px solid #97999b;
+    padding-bottom: 5px;
+    font-weight:normal;
+    font-size:11px;
+}
+
+.nro_btn_menu {
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+
+.concepto_menu {
+    float: right;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.btnes_lineas_formulario {
+    color: #000000;
+    float: left;
+    font-weight: bold;
+    left: 20px;
+    position: relative;
+    margin-top: 16px;
+    width: 150px;
+    cursor:pointer;
+    margin-top: 10px;
+    border-bottom: 1px solid #97999b;
+    padding-bottom: 5px;
+}
+
+.btnes_formulario_cabecera {
+    color: #000000;
+    float: left;
+    position: relative;
+    width: 150px;
+    cursor:pointer;
+}
+
+#contenedorSlideHome
+{
+	height: 237px;
+    position: relative;
+    width: 730px;
+    z-index: 0px;
+    margin-left:50%;
+    left:-365px;
+     top: 50px;
+}
+.pics
+{
+    height: 237px;
+    margin: 0;
+    padding: 0;
+    width: 730px;
+}
+.pics img {
+
+}
+#izq
+{
+	cursor:pointer;
+	position:absolute;
+	left:-45px;
+	top:85px;
+	display:block;
+	z-index:1000;
+}
+#der
+{
+	cursor:pointer;
+	position:absolute;
+	right:-45px;
+	top:85px;
+	display:block;
+	z-index:1000;
+}
+#header_home {
+position:relative;
+float:left;
+width:100%;
+height:115px;
+background-color:black;
+}
+
+
+.datagrid table { 
+    border-collapse: collapse; text-align: left; width: 100%; } 
+.datagrid { position:relative;top:10px;  background: #fff; max-height: 275px;overflow-y: scroll;box-shadow: 3px 2px 40px #999;float:left;  }.datagrid table td, .datagrid table th { padding: 10px 60px; }.datagrid table thead th {color:#86bc25; font-size: 15px;border-bottom:2px solid #97999B; border-top:3px solid #86bc25;} .datagrid table thead th:first-child {  }.datagrid table tbody td { color: #000000; border-left: 1px solid #E1EEF4;font-size: 12px;font-weight: normal;border-bottom:1px solid #BBBCBC;cursor:pointer; }.datagrid table tbody .alt td { background: #E1EEF4; color: #000000; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }
+
+.grid-home {
+position:relative;
+float:left;
+width:800px;
+height:100%;
+background-color:red;
+}
+
+
+#header_suite {
+    position:relative;
+    float:left;
+    width:100%;
+    height:10%;
+    display:none;
+    top:20px;
+   
+}
+
+#body_intro_f22{
+    background-repeat: repeat-x;
+    position:relative;
+    float:left;
+    height:800px;
+    width:100%;
+    background-image:url('../img/f22/textura_back.png');
+    transition: all 0.5s ease 0s;
+}
+
+.black_overlay{
+            display: none;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: seashell;
+            z-index:2;
+            -moz-opacity: 0.8;
+            opacity:.80;
+            filter: alpha(opacity=80);
+            
+        }
+        .white_content {
+            display: none;
+            position: fixed;
+            top: 150px;
+            left: 50%;
+            margin-left: -135px;
+            width: 300px;
+            height: 150px;
+            padding: 16px;
+            border: 0px solid;
+            
+            z-index:50000;
+            overflow: auto;
+            cursor: progress;
+        }
+
+        .creacion_contribuyente {
+            display: none;
+            position: fixed;
+            top: 150px;
+            left: 50%;
+            margin-left: -135px;
+            width: 300px;
+            height: 150px;
+            padding: 16px;
+            border: 0px solid;
+            
+            z-index:1002;
+            overflow: auto;
+            cursor: progress;
+        }
+
+.fadebox {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1000;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+
+.overbox {
+     background-color: #f0f7fd;
+    display: none;
+    left: 50%;
+    margin-left: -360px;
+    position: absolute;
+    top: 20%;
+    width: 720px;
+    z-index: 1001;
+    border-radius:15px;
+    opacity:0.85;
+}
+
+
+.tituloLight {
+    float: left;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -100px;
+    position: relative;
+    width: 300px;
+}
+
+.preguntasLight {
+    color: #004a94;
+    float: left;
+    font-size: 14px;
+    left: 20px;
+    position: relative;
+    top: 23px;
+    width: 600px;
+}
+
+.respuestasLight {
+    color: red;
+    float: left;
+    font-size: 16px;
+    left: 20px;
+    position: relative;
+    top: 23px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.imgCerrar {
+    background-image: url("../img/cerrar.png");
+    cursor: pointer;
+    float: right;
+    height: 23px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 24px;
+    z-index: 1;
+}
+
+
+body {
+   background: #000 none repeat scroll 0 0;
+
+
+}
+
+.caja-grupo {
+    background-color: #f0f7fd;
+    float: left;
+    height: 400px;
+    left: 50%;
+    margin-left: -500px;
+    position: relative;
+    width: 1000px;
+    top: 10px;
+  background-color: transparent;
+}
+
+
+
+.body-encuesta {
+position:relative;
+float:left;
+width:100%;
+
+}
+.linea-blanca {
+    background-color: #fff;
+    float: left;
+    height: 120px;
+    left: 300px;
+    position: relative;
+    top: 20px;
+    width: 1px;
+}
+
+.encuesta {
+position:relative;
+float:left;
+width:100%;
+display:none;
+}
+
+.header-encuesta {
+position:relative;
+float:left;
+width:100%;
+height:177px;
+ background-color: #a7d177;
+ margin-bottom: 15px;
+}
+
+#logo-home {
+    float: left;
+    left: -214px;
+    margin-left: 50%;
+    position: relative;
+    top:200px;
+}
+
+#caja-central-home {
+    float: left;
+    left: -250px;
+    margin-left: 50%;
+    position: relative;
+    top: 30%;
+    width: 500px;
+}
+
+.clearFix {
+ clear: both;
+}
+
+.texto {
+color:#004a94;
+}
+
+.cajaBlanca {
+position:relative;
+float:left;
+width:250px;
+height:170px;
+background-color:#00a3e0;
+border-radius:8px;
+top:20px;
+left: 50%;
+margin-left: -130px;
+color:#fff;
+border: 1px solid;
+}
+
+
+.linea {
+    background-color: #004a94;
+    float: left;
+    height: 1px;
+    left: 10px;
+    position: relative;
+    top: 9px;
+    width: 230px;
+}
+
+#txt-evaluacion {
+    color: #fff;
+    float: left;
+    left: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+    top: 10px;
+    width: 250px;
+}
+
+
+.txt_new_evaluacion {
+ float: left;
+ font-size: 14px;
+ left: 10px;
+ position: relative;
+ top: 10px;
+}
+.txt-log {
+ float: left;
+ left: 50px;
+ position: relative;
+ top: 10px;
+ color:white;
+}
+
+.txt-menu {
+ float: left;
+ font-size: 18px;
+ left: 25px;
+ position: relative;
+ top: 45px;
+ cursor:pointer;
+}
+
+    #upload_balances{
+        display: none;
+        top: 20%;
+        width: 90%;
+        position: fixed;
+        left: 5%;
+        z-index:50000;
+        overflow: auto;
+        
+    }
